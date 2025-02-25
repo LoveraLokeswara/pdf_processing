@@ -10,6 +10,7 @@ PyPDF2
 pdf2image
 pytesseract
 requests
+python-poppler
 poppler-utils
 anthropic 
 pillow
