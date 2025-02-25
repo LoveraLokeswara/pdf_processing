@@ -1,3 +1,7 @@
+# System dependencies required:
+# - poppler-utils (for pdf2image)
+# - tesseract-ocr (for pytesseract)
+
 streamlit
 numpy
 faiss-cpu
@@ -5,4 +9,7 @@ sentence-transformers
 PyPDF2
 pdf2image
 pytesseract
-requests 
+requests
+poppler-utils
+python-poppler
+anthropic 
