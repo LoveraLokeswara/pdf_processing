@@ -1,0 +1,8 @@
+streamlit
+numpy
+faiss-cpu
+sentence-transformers
+PyPDF2
+pdf2image
+pytesseract
+requests 
