@@ -11,5 +11,4 @@ pdf2image
 pytesseract
 requests
 poppler-utils
-python-poppler
 anthropic 
