@@ -1,2 +1,4 @@
 pkg-config
 libpoppler-cpp-dev
+tesseract-ocr
+poppler-utils
