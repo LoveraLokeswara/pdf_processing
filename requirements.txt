@@ -1,15 +1,16 @@
-# System dependencies required:
-# - poppler-utils (for pdf2image)
-# - tesseract-ocr (for pytesseract)
-
+# Core dependencies
 streamlit
 numpy
-faiss-cpu
-sentence-transformers
 PyPDF2
 pdf2image
 pytesseract
 requests
 anthropic
 pillow
-tf-keras
+
+# ML dependencies with specific versions 
+transformers==4.37.2
+tensorflow==2.15.0
+tf-keras==2.15.0
+sentence-transformers
+faiss-cpu
