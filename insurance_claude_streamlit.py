@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Insurance Policy Assistant", layout="wide")
+
 st.write("Checking dependencies...")
 try:
     import tensorflow as tf
