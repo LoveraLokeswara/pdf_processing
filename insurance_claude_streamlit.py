@@ -1,4 +1,20 @@
 import streamlit as st
+
+st.write("Checking dependencies...")
+try:
+    import tensorflow as tf
+    st.write(f"TensorFlow version: {tf.__version__}")
+    
+    import keras
+    st.write(f"Keras version: {keras.__version__}")
+    
+    from sentence_transformers import SentenceTransformer
+    st.write("SentenceTransformer imported successfully")
+    
+    # Continue with the rest of your app
+except Exception as e:
+    st.error(f"Dependency error: {e}")
+
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
