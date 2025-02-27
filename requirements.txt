@@ -5,12 +5,22 @@ PyPDF2
 pdf2image
 pytesseract
 requests
-anthropic
+# anthropic
 pillow
 
 # ML dependencies with specific versions 
-transformers==4.37.2
+transformers==4.42.0
 tensorflow==2.15.0
 tf-keras==2.15.0
 sentence-transformers
 faiss-cpu
+watchdog
+
+# PyTorch ecosystem
+torch==2.0.1
+torchvision==0.15.2
+
+# pymupdf>=1.22.5
+# pdfplumber>=0.10.0
+# opencv-python-headless>=4.7.0.72
+# python-dotenv>=1.0.0
