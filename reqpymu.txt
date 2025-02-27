@@ -1,0 +1,17 @@
+# Core dependencies
+streamlit>=1.21.0
+numpy>=1.24.3
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+PyMuPDF>=1.22.3  # Previously known as fitz
+requests>=2.31.0
+python-dotenv>=1.0.0  # For loading environment variables
+
+# Optional
+pydantic>=2.1.1  # For better type checking if needed
+
+# Additional dependencies
+ipywidgets>=8.0.0  # For interactive widgets
+
+pandas
+xlsxwriter
